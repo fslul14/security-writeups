@@ -1,3 +1,10 @@
+# Security Write-Ups
+
+- [Chapter 1: Back to Basics](./README.md)
+- [Chapter 2: Attack It, Then Catch It](./chapter-2.md)
+
+---
+
 # Back to Basics: Breaking My Way Back Into OWASP Juice Shop
 
 **TL;DR:** A weekend project to rebuild a proper home lab from scratch and re-attack OWASP Juice Shop, the same vulnerable web app that got me into cybersecurity in college. Four findings: a SQL injection authentication bypass, a leaked and crackable password hash, a broken access control (IDOR) bug, and some basic recon that set it all up. OWASP Top 10 categories covered: Injection (A03), Cryptographic/Sensitive Data Exposure (A02), and Broken Access Control (A01).
